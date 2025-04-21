@@ -1,0 +1,63 @@
+/* Base styles */
+:root {
+    --primary-color: #566B32;
+    --secondary-color: #FFDCB2;
+    --primary-text-color: #FFFFFF;
+    --secondary-text-color: #000000;
+}
+
+body {
+    font-family: 'RymanEco', Arial, sans-serif;
+    background-color: #FFDCB2;
+}
+
+nav li, a, .cta {
+    font-family: 'RymanEco', Arial, sans-serif;
+    font-size: 20px;
+    color: var(--secondary-text-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    width: 8rem;
+    height: auto;
+}
+
+.navLinks{
+    list-style: none
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.navLinks li a:hover {
+    color: var(--primary-color);
+}
+
+button {
+    padding: 9px 29px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #FFFFFF;
+}
+
+button:hover {
+    color: #000000;
+}

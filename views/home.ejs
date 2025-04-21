@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    
+    <%- include('partials/nav.ejs') -%>
+
+    <div class="hero-container">
+
+        <div class="hero-section">
+
+            <h1 id="hero-title">Powering a Greener Future<br>with Smart Energy Solutions </h1>
+
+            <p id="hero-content">Discover how solar energy and sustainable technology can reduce your carbon footprint. Get expert consultations, take our carbon quiz, and explore the latest green energy innovations.</p>
+
+            <div class="cta-container">
+                <a href="/solarConsultation" id="hero-button"><button>Get Started</button></a>
+
+                <a href="/auth/login"><button>Login Now</button></a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img class="sun-img" src="/resources/hero-image.png" alt="sun graphic">
+        </div>
+        
+    </div>
+
+    <div class="why-rolsa">
+
+        <h1>Why Choose Rolsa?</h1>
+
+        <div class="card-container">
+
+            <div class="card" id="card1">
+                <h2>Expert Solar Solutions</h2>
+
+                <p>Learn how solar energy can power your home efficiently. Our expert guidance helps you understand the benefits, costs, and installation process for a greener future</p>
+            
+                <a class="card-button" href="/solarConsultation"><button>See More</button></a>
+            </div>
+
+            <div class="card" id="card2">
+
+
+                <h2>Reduce  Your Impact</h2>
+
+                <p>Every small change adds up! Discover science-backed tips to reduce waste, lower emissions, and make more sustainable choices in your daily life.</p>
+            
+                <a class="card-button" href="/greenStories"><button>See More</button></a>
+            </div>
+
+            <div class="card" id="card3">
+                <h2>Track Your Costs</h2>
+
+                <p>Understand your energy consumption with our calculator. Estimate costs, identify wasteful habits, and learn how switching to green energy can save you money.</p>
+            
+                <a class="card-button" href="/carbonCheck"><button>See More</button></a>
+            </div>
+
+            <div class="card" id="card4">
+                <h2>Take Carbon Quiz</h2>
+
+                <p>Measure your impact with our quick carbon quiz. Get a detailed breakdown of your emissions and personalized advice on how to reduce them.</p>
+            
+                <a class="card-button" href="/carbonCheck"><button>See More</button></a>
+            </div>
+        </div>
+
+    </div>
+
+    <%- include('partials/footer.ejs') -%>
+
+</body>
+</html>

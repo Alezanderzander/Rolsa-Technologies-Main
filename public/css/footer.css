@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 30px 10%;
+    min-height: fit-content;
+    max-width: 100%;
+    color: white;
+}
+
+#quick-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+    color: white;
+}
+
+#quick-links {
+    list-style: none;
+    color: white;
+    flex-wrap: wrap;
+}
+
+#quick-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    flex-wrap: wrap;
+}
+

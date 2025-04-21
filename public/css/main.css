@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* HERO SECTION */
+
+.hero-container{
+    display: flex;
+    background-color: #566B32;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    gap: 1rem;
+}
+
+.hero-section{
+    display: flex;
+    background-color: #566B32;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    padding: 3px;
+}
+
+.hero-section h1 {
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.hero-section p, a{
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+    padding: 6px;
+}
+
+.cta-container{
+    display: flex;
+    align-items: center;
+}
+
+.cta-container button{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+.sun-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-image{
+    width: 35rem;
+    height: auto;
+}
+
+/* WHY CHOOSE ROLSA SECTION */
+
+.why-rolsa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 8rem 0rem;
+    min-height: 600px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 2fr));
+    gap: 1rem;
+    max-width: 36rem;
+}
+
+.card{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background-color: #566B32;
+    color: #fff;
+    border-radius: 20px;
+    padding: 22px;
+}
+
+.card button {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 14px;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
